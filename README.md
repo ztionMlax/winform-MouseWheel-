@@ -16,9 +16,9 @@
 #endregion
 
 
-
-
 //根据数据重绘窗体位置，记得要开双重缓冲，否则会出现严重闪烁
+
+
 #region 窗体滚动
         public void purl_MouseWheel(object sender, System.Windows.Forms.MouseEventArgs e)
         {
