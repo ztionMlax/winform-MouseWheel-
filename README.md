@@ -1,6 +1,8 @@
 # winform-C-_-MouseWheel-
 //构造方法里面提添加鼠标wheel事件
+
 思路:
+
 	主界面添加一个panel，将用户控件放在此panel里面，在panel
 或者主界面里面添加MouseWheel事件，根据鼠标滑轮事件重绘窗体的位置，就能实现窗体的滑动，以下代码供参考
 
