@@ -8,11 +8,13 @@
 
 
 #region 构造
+
         public TodayNews()
         {
             InitializeComponent();
             this.MouseWheel += new MouseEventHandler(this.purl_MouseWheel);//添加事件
         }
+
 #endregion
 
 
@@ -20,6 +22,7 @@
 
 
 #region 窗体滚动
+
         public void purl_MouseWheel(object sender, System.Windows.Forms.MouseEventArgs e)
         {
 
@@ -39,6 +42,7 @@
                 this.uRl1.Location = new Point(this.uRl1.Location.X, this.uRl1.Location.Y - 20);//更新窗体位置
             }
         }
+
 #endregion
 
 
